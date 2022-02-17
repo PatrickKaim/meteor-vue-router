@@ -1,19 +1,18 @@
 <template>
   <div>
     <h1>Welcome to Meteor!</h1>
-    <hello/>
-    <info/>
+    <router-link to="/home">Home</router-link>
+    <router-link to="/dashboard">Dashboard</router-link>
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello.vue'
-import Info from './components/Info.vue'
 
 export default {
   components: {
-    Hello,
-    Info,
   },
 }
 </script>

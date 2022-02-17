@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to Meteor!</h1>
+    <h1 class="text-red-500">Welcome to Meteor!</h1>
     <router-link to="/home">Home</router-link>
     <router-link to="/dashboard">Dashboard</router-link>
     <div>
